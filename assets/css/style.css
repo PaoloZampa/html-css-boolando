@@ -122,6 +122,10 @@ img {
     right: 0;
 }
 
+.description{
+    margin-bottom: 2rem;
+}
+
 .brand{
     font-size: 0.7rem;
 }
