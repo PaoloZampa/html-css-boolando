@@ -42,6 +42,16 @@ body {
     flex-wrap: wrap;
 }
 
+.bd-l0 {
+    bottom: 10%;
+    left: 0;
+}
+
+.bd-l15 {
+    bottom: 10%;
+    left: 15%;
+}
+
 /* #endregion utilities */
 
 /* #region header */
@@ -96,8 +106,6 @@ img {
     font-size: 10px;
     padding: 0.2rem 0.4rem;
     color: white;
-    bottom: 10%;
-    left: 0;
 }
 
 .badge-green {
@@ -108,11 +116,9 @@ img {
     font-size: 10px;
     padding: 0.2rem 0.5rem;
     color: white;
-    bottom: 10%;
-    left: 15%;
 }
 
-.like{
+.like {
     width: 40px;
     height: 40px;
     background-color: white;
@@ -122,16 +128,17 @@ img {
     right: 0;
 }
 
-.description{
+.description {
     margin-bottom: 2rem;
 }
 
-.brand{
+.brand {
     font-size: 0.7rem;
 }
 
-.cost{
+.cost {
     font-size: 0.9rem;
     color: var(--bl-red);
 }
+
 /* #endregion main */
