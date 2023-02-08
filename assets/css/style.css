@@ -68,3 +68,19 @@ body {
 }
 
 /* #endregion header */
+
+/* #region main */
+
+.row{
+    margin: 2rem auto;
+    justify-content: space-between;
+}
+
+.col4{
+    width: 32%;
+}
+
+img{
+    max-width: 100%;
+}
+/* #endregion main */
