@@ -1,5 +1,70 @@
-*{
+/* #region common */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* #endregion common */
+
+/* #region utilities */
+
+:root {
+    --bl-orange: #ff6900;
+    --bl-grey: #e1e1e1;
+    --bl-red: #ff0000;
+    --bl-green: #007f00;
+    --bl-dark: #1a1a1a;
+}
+
+.container {
+    width: 70%;
+    max-width: 1176px;
+    margin: auto;
+    align-items: center;
+}
+
+.d-felx {
+    display: flex;
+}
+
+.sp-bw {
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+
+#app-header {
+    background-color: var(--bl-orange);
+    position: sticky;
+}
+
+#app-header a {
+    color: white;
+    text-decoration: none;
+}
+
+#app-header li {
+    font-size: 1rem;
+    list-style: none;
+    display: inline-block;
+}
+
+.logo img {
+    width: 150px;
+    margin: 1rem auto;
+}
+
+/* #endregion header */
