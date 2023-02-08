@@ -38,7 +38,7 @@ body {
     justify-content: space-between;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
@@ -71,16 +71,63 @@ body {
 
 /* #region main */
 
-.row{
+.row {
     margin: 2rem auto;
     justify-content: space-between;
 }
 
-.col4{
+.col4 {
     width: 32%;
 }
 
-img{
+img {
     max-width: 100%;
+}
+
+.card {
+    position: relative;
+}
+
+.badge-red {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    background-color: var(--bl-red);
+    font-size: 10px;
+    padding: 0.2rem 0.4rem;
+    color: white;
+    bottom: 10%;
+    left: 0;
+}
+
+.badge-green {
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    background-color: var(--bl-green);
+    font-size: 10px;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    bottom: 10%;
+    left: 15%;
+}
+
+.like{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    padding: 0.7rem;
+    top: 5%;
+    right: 0;
+}
+
+.brand{
+    font-size: 0.7rem;
+}
+
+.cost{
+    font-size: 0.9rem;
+    color: var(--bl-red);
 }
 /* #endregion main */
