@@ -142,3 +142,46 @@ img {
 }
 
 /* #endregion main */
+
+/* #region footer */
+
+#app-footer {
+    background-color: var(--bl-dark);
+}
+
+.legal {
+    color: white;
+    padding: 1rem 0;
+}
+
+.legal li {
+    font-size: 0.6rem;
+    list-style: none;
+    display: inline-block;
+}
+
+#app-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    color: white;
+    justify-content: center;
+}
+
+.social h4 {
+    font-size: 0.8rem;
+}
+
+.social ul {
+    padding: 0 1rem;
+}
+
+.social li {
+    font-size: 1rem;
+    list-style: none;
+    display: inline-block;
+}
+
+/* #endregion footer */
