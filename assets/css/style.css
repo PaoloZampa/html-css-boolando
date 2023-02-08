@@ -58,7 +58,9 @@ body {
 
 #app-header {
     background-color: var(--bl-orange);
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 #app-header a {
@@ -80,6 +82,11 @@ body {
 /* #endregion header */
 
 /* #region main */
+
+#app-main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .row {
     margin: 2rem auto;
@@ -157,15 +164,19 @@ img {
     opacity: 1;
 }
 
-.like:hover{
+.like:hover {
     color: #ff0000;
 }
+
 /* #endregion main */
 
 /* #region footer */
 
 #app-footer {
     background-color: var(--bl-dark);
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }
 
 .legal {
